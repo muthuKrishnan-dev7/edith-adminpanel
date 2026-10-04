@@ -1,0 +1,30 @@
+const [formData, setFormData] = useState({
+  name: "",
+  description: "",
+  featured: "",
+  gender: "",
+  categoryId: "",
+  subcategoryId: "",
+  attributeId: "",
+  material: "",
+  active: true,
+
+  variants: [
+    {
+      attributeValue: "",
+      color: "",
+      stockQuantity: "",
+      price: "",
+      offerPrice: "",
+      discount: "",
+
+      images: [
+        {
+          imgUrl: "",
+          isPrimary: true,
+          sortOrder: 1,
+        },
+      ],
+    },
+  ],
+});
